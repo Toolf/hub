@@ -1,7 +1,6 @@
 import logging
 from app.adapters.agent_mqtt_adapter import AgentMQTTAdapter
 from app.adapters.store_api_adapter import StoreApiAdapter
-from app.interfaces.store_gateway import StoreGateway
 from config import MQTT_BROKER_HOST, MQTT_BROKER_PORT, MQTT_TOPIC, STORE_API_BASE_URL
 
 if __name__ == "__main__":

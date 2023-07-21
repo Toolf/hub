@@ -11,10 +11,10 @@ class StoreGateway(ABC):
     @abstractmethod
     def save_data(self, processed_data: ProcessedAgentData) -> bool:
         """
-        Method to save the processed road data in the database.
+        Method to save the processed agent data in the database.
 
         Parameters:
-            processed_data (ProcessedAgentData): The processed road data to be saved.
+            processed_data (ProcessedAgentData): The processed agent data to be saved.
 
         Returns:
             bool: True if the data is successfully saved, False otherwise.

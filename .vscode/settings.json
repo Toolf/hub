@@ -1,0 +1,19 @@
+{
+    "python.formatting.provider": "none",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "black-formatter.args": [
+            "--line-length=79",
+        ]
+    },
+    "flake8.args": [
+        "--per-file-ignores=\"../../__init__.py\""
+    ],
+    "cSpell.words": [
+        "mqtt",
+        "usecases"
+    ],
+}
